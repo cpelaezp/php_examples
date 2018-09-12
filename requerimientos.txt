@@ -1,0 +1,31 @@
+EJERCICIOS DE AFIANZAMIENTO:
+
+5. Una papelería requiere realizar un formulario que permita pedir una cantidad de cuadernos, cuyo precio variará según la cantidad pedida, teniendo en cuenta que se pide: 
+CANTIDAD 	PRECIO UNITARIO 
+Menos de 10 	$ 2.000 
+Entre 10 y 30 	$ 1.800 
+Más de 30 	$ 1.300 
+	
+Se solicita mostrar el precio total del pedido, la cantidad de cuadernos y el precio unitario que el empleado selecciono para concluir el pedido.
+
+6. Un profesor de matemáticas desea mostrar a sus alumnos un método rápido para realizar le solicita realizar una aplicación web que permita sumar todos los números enteros pares que hay entre 1 y 1000. 
+
+7. Una compañía aseguradora de autos, requiere realizar el registro de los usuarios, por lo tanto, entre sus datos se solicita la cuenta de correo obligatorio para manejar la información vía Email. Se solicita que el dato de correo electrónico se valide de acuerdo a la sintaxis de un correo el cual debe tener presentes los caracteres “@” y “.” 
+
+8. La oficina “ACG Consultores” en su proceso para organizar los datos, requiere un directorio telefónico de sus clientes en donde se encuentren los siguientes datos: NIT, Nombre, Dirección, Ciudad, Teléfono, Nombre del contacto, e.mail, por medio de un array se debe generar una agenda que permita navegar en los datos para mejorar la búsqueda y organización de los clientes. 
+
+Segundo Etapa de desarrollo: (Carrito de compras On- Line)
+
+El supermercado “WHOL FOOD”, en un barrio de Bogotá, Colombia, desea desarrollar una página web denominada carrito de compras para realizar ventas on-line para sus clientes y facilitar las labores a los trabajadores. Usted ha sido seleccionado para desarrollar tal labor en donde se solicita que la página tenga las siguientes características: 
+• Se debe conocer la plataforma estratégica de la organización donde se informa a los usuarios su objeto social, misión, visión y demás información de conocimiento general de la empresa. 
+• Se requiere conocer los productos que se venden, de acuerdo a la clasificación de categorías que se realiza en un supermercado. 
+• De cada categoría se debe mostrar mínimo 8 productos con la descripción, precio e imagen del ítem ofrecido. 
+• Se solicita que el aplicativo tenga la posibilidad de que el usuario pueda escoger la cantidad de cada producto que desea comprar de cada artículo. 
+• Debe tener la opción de agregar y eliminar productos del carrito de compras según los gustos del consumidor. 
+• Se debe generar una factura de la compra a realizar. 
+• Es importante que cada vez que se genere una factura, el sistema muestre la hora y el día en que se realizó el pedido, teniendo en cuenta que se debe mostrar un anuncio en cuantos días será atendido el pedido para que llegue a su destino final. 
+Nota: No olvidar utilizar los estilos CSS, listas, tablas, formularios, imágenes en el diseño de la página web solicitada.
+Evidencias 
+Las evidencias propuestas para esta actividad deben ser enviadas en los enlaces asignados de envío de actividades estipulados por el docente en la plataforma, las cuales serán retroalimentadas en el menor tiempo posible. 
+1. Entrega de ejercicios propuestos: EJERCICIOS DE AFIANZAMIENTO, para esta actividad se debe hacer entrega del código propuesto para dar solución a cada ejercicio propuesto cumpliendo con los requerimientos, al igual que el enlace de la página que se debe ejecutar en el localhost. 
+2. Entrega de código, enlace y archivos necesarios para ejecutar el Carrito de Compras en el localhost. Tener en cuenta que se deben anexar las imágenes que se utilicen en una carpeta para que se ejecute correctamente. 
