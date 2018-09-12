@@ -1,8 +1,13 @@
+<?php 
+    include 'library.php';
+?>
+
 <html>
  <head>
   <title>Punto 5</title>
  </head>
  <body>
+    <p> <a href="index.php">Index</a </p>
     <p> 
         5. Una papelería requiere realizar un formulario que permita pedir una cantidad de cuadernos, cuyo precio variará según la cantidad pedida, teniendo en cuenta que se pide: 
         <lu>

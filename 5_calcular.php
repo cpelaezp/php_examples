@@ -1,3 +1,7 @@
+<?php 
+    include 'library.php';
+?>
+
 <html>
  <head>
   <title>Punto 5</title>
