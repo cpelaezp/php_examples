@@ -1,6 +1,12 @@
 <?php
     include 'app.start.php';
 
+    if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        session_uptvar('insession', 'ONLINE');
+        echo "asdsad";
+    }
+
+    $inSession = session_getvar('insession');
 ?>
 
 <div class="container">
@@ -12,7 +18,7 @@
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <?php if ($inSession <> ''){ ?>
+<?php if ($inSession == 'ONLINE'){ ?>
     <ul class="list-unstyled components">
       <li class="active">
         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Productividad</a>
@@ -50,16 +56,15 @@
             <a href="#">Ayuda</a>
         </li>
     </ul>
-    <?php } else { ?>
+<?php } else { ?>
         <div class="container">
             <h1 class="form-heading">login Form</h1>
             <div class="login-form">
                 <div class="main-div">
                     <div class="panel">
                         <h2>Admin Login</h2>
-                        <p>Please enter your email and password</p>
                     </div>
-                    <form id="Login">
+                    <form id="Login" action="menu.php" method="post">
                         <div class="form-group">
                             <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
                         </div>
@@ -73,10 +78,9 @@
                         <button type="submit" class="btn btn-primary">Login</button>
                     </form>
                 </div>
-                <p class="botto-text"> Designed by Sunil Rajput</p>
             </div>
         </div>
-    <?php } ?>
+<?php } ?>
     </div>
   </div>
 </div>

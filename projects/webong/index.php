@@ -57,14 +57,16 @@
                   <?php include 'info/contactenos.html'; ?>
                 </div>
                 <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-                  <div class="row">
-                    <div class="col-sm-2">
-                      <iframe src="webapp/menu.php" frameborder="0"></iframe>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2 LeftNavigation" >
+                        <iframe src="webapp/menu.php" frameborder="0" class="content"></iframe>
+                      </div>
+                      <div class="col-xs-8 Content">
+                        <iframe src="webapp/main.php" frameborder="0" class="content"></iframe>
+                      </div>
                     </div>
-                    <div class="col-sm-8">
-                      <iframe src="webapp/main.php" frameborder="0"></iframe>
-                    </div>
-                  </div>
+                  </div>  
                 </div>
               </div>
             

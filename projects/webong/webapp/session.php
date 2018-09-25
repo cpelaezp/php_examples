@@ -1,6 +1,7 @@
 <?php
+    session_start();
+  
     function session_uptvar($idvar, $value){
-        session_start();
         if(isset($_SESSION[$idvar])){
             $_SESSION[$idvar] = $value;
         }
@@ -9,7 +10,6 @@
     function session_getvar($idvar){
         $return = NULL;
         
-        session_start();
         if(isset($_SESSION[$idvar])){
             $return = $_SESSION[$idvar]; 
         } 
@@ -18,7 +18,6 @@
     }    
 
     function session_delvar($idvar){
-        session_start();
         if(isset($_SESSION[$idvar])){
             unset($_SESSION[$idvar]);
         }
